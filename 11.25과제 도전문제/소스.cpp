@@ -6,7 +6,7 @@ int main(void)
     int count = 0; // 대문자를 소문자로 변환한 개수
 
     // 문자열 입력
-    printf("영어 문장을 입력하세요: ");
+    printf("문장 입력 : ");
     fgets(str, sizeof(str), stdin);
 
     // 대문자를 소문자로 변환
@@ -20,8 +20,8 @@ int main(void)
     }
 
     // 결과 출력
-    printf("변환된 문장: %s", str);
-    printf("변환된 대문자 수: %d\n", count);
+    printf("바뀐 문장: %s", str);
+    printf("바뀐 문자 수: %d\n", count);
 
     return 0;
 }
